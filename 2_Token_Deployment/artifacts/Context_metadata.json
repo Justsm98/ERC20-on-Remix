@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Zero2Hero_BNB/2_Token_Deployment/interface.sol": "Context"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Zero2Hero_BNB/2_Token_Deployment/interface.sol": {
+			"keccak256": "0xc596ba14919666dc8daeb36fe8c072448ec5c88a6b07d0b31ebffd86dcbffacd",
+			"license": "Just",
+			"urls": [
+				"bzz-raw://ff42daf1a6c04c9db41233e38ce96ced069d348a562f8a76c58b4f5116180eef",
+				"dweb:/ipfs/QmQP36mcJZceVAWNWQ1cdaiwNxR6FYc6fTkqNSF3FmFx4F"
+			]
+		}
+	},
+	"version": 1
+}

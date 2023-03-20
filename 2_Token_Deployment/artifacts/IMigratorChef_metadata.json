@@ -1,0 +1,145 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"name": "migrate",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Zero2Hero_BNB/2_Token_Deployment/Masterchef.sol": "IMigratorChef"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0x3259e66c1560b340333359b07d5a0096936318bffde718b19c290369781c7154",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af946e86589d99541736c92296732cd8c43328c037153b7fb7370681a95b5b43",
+				"dweb:/ipfs/Qmcq4xmdEyRiWBb3mkdVo6bB3EhPqhdc52FjECWx9aCeGp"
+			]
+		},
+		"@openzeppelin/contracts/math/SafeMath.sol": {
+			"keccak256": "0x468716ac4c519ab1c09935ed460de6499a6ef349c4a7bb85e0983a7576921d78",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b199b097dfb301f5f02dba2c9b7730a5687ceec4335fbe9c926f9a0b4aec25d5",
+				"dweb:/ipfs/QmdNUs8X34QDdRmgD4s6s6CFALCoKnwLJ1QM2NWKLPHd6z"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x57812f213c3b36031d6abf04afbe341901cb73b2e45b03d7f04bddc67b040bc8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7892c482595b9f71e2ce6332a4e9edb791d99e8973f82c08e4184bd3b803976d",
+				"dweb:/ipfs/QmTSjbHZZZqYqHMW35fbiHoktFb3r3ERsvaZ35CaSR1ZZf"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x0529011d71c32289d84baedb354bb81baa66ee96faaa6f086a48750729157f11",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://658d3b91f1d43654108d5be27b306268374a3ef9f9a7adad0384967f57e20920",
+				"dweb:/ipfs/QmXXWJ4rJkZwYpAab21NfybHsTand4GAMpBTwgbJXi7cFB"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+			"keccak256": "0x433ae2eb940b30773f578b30e1325d6859a4ab88c28c1f5819102aac30f53afa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bac0d4d4081dc25b0a5091f0bac15722bd5c9be29ec06d1e555bb57a69f072af",
+				"dweb:/ipfs/QmZW9NZxB7zWsLiJryWqUUtRrMnWRvu27ESuuFE5MMvcKB"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
+				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
+			]
+		},
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0xda933e8fd08abc1d475469a6b5a2f10d6b5651552e4f2bd766c848d6d178e2a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://984b8e3a6fc533e519d22aee0ce48750eaa71dce9bbbe362543ddd4e7c722697",
+				"dweb:/ipfs/QmPRKrGGnwYyx5wrL6eVKmBsT8d4TdDm8j14jP3cCKQF93"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x682d6beacfae4dc567e0bd0a6308f15374aa4691c4ec503e97df38cf89b166e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f80f1f6c485407fb4c00885499eadd44862ed7763037761ba8dde1c4ad68c8a",
+				"dweb:/ipfs/Qmcu2gy5iAywQ4z3CrRyNfkh6YGgUKeUB9znDtSkv5NSM1"
+			]
+		},
+		"@openzeppelin/contracts/utils/EnumerableSet.sol": {
+			"keccak256": "0x66b98a906f1564d1385dfbb0a23abd6731118e243293c556c48444ffa107fecf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://838a2f421454fcb5091899d8f50dd381d2e28366bd1001f551e2eb750afa573c",
+				"dweb:/ipfs/QmXeC26dLB5Yt9pigkxUri4tpTvUFvRBPtGc154sQtyRPB"
+			]
+		},
+		"contracts/Zero2Hero_BNB/2_Token_Deployment/Masterchef.sol": {
+			"keccak256": "0x91cf3ffb7b91f40f14c2f4e6d31488685cf1d9c005a5c01c247149d7238a5c1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60b7d0c7705e56c800041f67bb7d285e3a5004ab491598246b3e82ad16de92dd",
+				"dweb:/ipfs/QmT6YvA98CXSDViXe7QWwgKWQ6chnFLtP1t43TZoRfvSZ7"
+			]
+		},
+		"contracts/Zero2Hero_BNB/2_Token_Deployment/SushiToken.sol": {
+			"keccak256": "0xa603101ed672132f012fb06337c6345d41563f7c1b50ebb89b01b2dbd1c515dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://29fba40239e13395f6e64f52de46014cb9facc2d5513aaeeb82492d3d96366eb",
+				"dweb:/ipfs/QmZrn6nMAopBQKGva4JfrCiWwSR7DFvPR2bHVjXV8YKbNg"
+			]
+		}
+	},
+	"version": 1
+}
